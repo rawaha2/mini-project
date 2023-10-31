@@ -1,0 +1,106 @@
+body{
+    font-family: hypatia-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 1rem;
+}
+
+hr {
+    width: 120px;
+    margin-left: 0%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 6rem;
+    width: 70%;
+    margin: 0%;
+}
+
+p{ 
+    font-variant: normal;
+    width: 90%;
+}  
+
+span{
+    color: rgb(248, 55, 55);
+    font-weight: 900 ;
+}
+
+.allimage{
+    width: 98%;
+}
+
+.row {
+    display: flex;
+  }
+  
+.card {
+    flex: 33.33%;
+  }
+  
+.circle1{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+  
+}
+
+.circle2{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+ 
+}
+
+.circle3{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+   
+}
+
+footer{
+    text-align: center;
+    .rectangle{
+        background-color: #F2F0F1;
+        padding: 3%;
+        margin-top: 7%;
+    }
+    .elipse{ background-color: rgb(255, 255, 255);
+        padding: 3%;
+        border-radius: 100px 100px 100px 100px
+
+    }
+    clear: both;
+}
+
+
+@media (max-width: 680px) {
+    h1{font-size: 2rem;}
+    hr {
+        width: 120px;
+        margin-left: 0%;
+        margin-bottom: 10px;
+    }
+   
+    .allimage{
+        width: 98%;
+    }
+    
+    .row {
+        display: block;
+      }
+}
